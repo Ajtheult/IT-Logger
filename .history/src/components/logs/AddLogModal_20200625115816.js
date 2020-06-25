@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { addLog } from "../../actions/logActions";
 
 import M from "materialize-css/dist/js/materialize.min.js";
+import AddLogModal from "../techs/AddTechModal";
 
 const AddLogModal = ({ addLog }) => {
   const [message, setMessage] = useState("");
