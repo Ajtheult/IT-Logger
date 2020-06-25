@@ -17,7 +17,6 @@ const AddTechModal = ({ addTech }) => {
         lastname,
       });
 
-      M.toast({ html: `${firstname} ${lastname} was added as a tech` });
       //Clear Fields
       setFirstName("");
       setLastName("");
